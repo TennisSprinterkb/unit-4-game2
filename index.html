@@ -11,30 +11,71 @@
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Match the speed!</h1>
+    <header id="Cabeza">
+        <div class="headFoot>">
+            <h1>Match the speed!</h1>
+        </div>
     </header>
 
     <div id="main-container">
-    <p>
-            You will be given a random speed(number) at the start of the game.
-
-            There are four vehicles below. By clicking on a vehicle, you will add a specific speed to your total speed(score).
-            
-            You win the game by matching your speed to the Speed limit sign. You lose the game if your speed goes above the speed sign.
-            
-            How much speed each car contains is hidden from you until you click on it.
-            
-            Each time when the game starts, the game will change the speed of each vehicle.
-    </p>
-    </div>
-
-    <div id="Container">
-        <div class="cars">
-        <img src="/assets/images/Bentley.jpg" alt="Bentley">
+        <div class="work">
+            <h3> Rules of the game!</h3>
+            <p>You will be given a random speed(number) at the start of the game.</p>
+            <br>
+            <p>There are four vehicles below. By clicking on a vehicle, you will add a specific speed to your total speed(score).</p>
+            <br>    
+            <p>You win the game by matching your speed to the Speed limit sign. You lose the game if your speed goes above the speed sign.</p>
+            <br>    
+            <p>How much speed each car contains is hidden from you until you click on it.</p>
+            <br>    
+            <p>Each time when the game starts, the game will change the speed of each vehicle.</p>
         </div>
-        
+
+    
+    <!-- <div class="sign"> -->
+        <div class="work">
+            <img id="mph" src="assets/images/Speedsign.jpg" alt="speedSign">
+            <div class="winRlose"></div>
+            <h4 id="random"></h4>
+            <!-- <span id="speedToHit"></span> -->
+        </div>
     </div>
+
+    <div class="score">
+        <div class="work>">
+            <h4 id="outcome">Here we go!</h4>
+            <h4 id="win">Wins: 0</h4>
+            <h4 id="loss">Losses: 0</h4>
+        </div>
+    <!-- <div id="speedometer"> -->
+        <div class="work">
+            <h2>Your speed</h2>
+            <h2 id="yourSpeed">0</h2>
+        </div>
+    </div>
+    <!-- </div> -->
+
+
+    <!-- <div id="box"> -->
+    <div class="card">
+        <img class="car" src="assets/images/Bentley.jpg" alt="Bentley" id="Bentley">
+        <img class="cart" src="assets/images/Range.jpg" alt="Range" id="Range">
+        <img class="carz" src="assets/images/GTR.png" alt="GTR" id="GTR" >
+        <img class="carb" src="assets/images/Porsche.jpg" alt="Porsche" id="Porsche">
+    </div>
+    <!-- </div> -->
+
+    <footer>
+        <div class="headFoot">
+            &copy; Copyright 2018 Kevin Bray
+            <br>
+            <a href="https://tennissprinterkb.github.io/Responsive-Portfolio/portfolio.html">Kb portfolio</a>
+        </div>
+    </footer>
+
+   
+
+    
 
 
 

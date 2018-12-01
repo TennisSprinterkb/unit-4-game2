@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url("../images/gravel.png");
+}
+
+h3 {
+    text-align: center;
+    text-decoration: black;
+}
+
+footer {
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+}
+
+header {
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-bottom: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.car {
+    max-width: 100%;
+    height: auto;
+    margin-top: 17%;
+    justify-content: center;
+}
+
+.cart {
+    max-width: 100%;
+    height:auto;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.carz {
+    max-width: 100%;
+    height:auto;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.carb {
+    max-width: 100%;
+    height:auto;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+
+/* #Cabeza {
+    width: 100%;
+    margin: 0 0 30px;
+    background: blue;
+    z-index: 99; 
+    color: #fff;
+    border-bottom: 2px solid #ccc;
+    /* position: fixed; */
+    /* text-align: center; */
+    /* padding-top: 3%; */
+/* } */ 
+
+.headFoot {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+.sign {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    float: right;
+}
+
+#mph {
+    width:68.5%;
+    height: 68.5%;
+    position: relative;
+    /* float: right; */
+}
+
+#main-container {
+    background: #ffffff;
+    padding: 5%;
+    margin: 4%;
+    width: 100%;
+    max-width: 400px;
+    float: left;
+    border: 1px solid #dddddd;
+    padding-top: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.work {
+    width:274px;
+    /* overflow: auto; */
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
+
+.card {
+    width:260px;
+    /* overflow: auto; */
+    position: relative;
+    float: left;
+    clear: right;
+    margin: 20px 0 25px;
+}
+
+
+#random {
+    height: 34.25%;
+    width: 34.25%;
+    position: absolute;
+    bottom: 17%;
+    left: 24%;
+    font-size: xx-large;
+}
+
+.score {
+    padding-top:25%;
+    float: left;
+    clear: right;
+    text-align: center;
+    font-size: x-large;
+}
+
+/* #speedometer {
+    float: none;
+} */
+
+
+
+/* .winRlose {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 30%;
+    left: 43%;
+    background: green;
+} */
